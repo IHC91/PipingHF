@@ -58,41 +58,90 @@ class CmdPipeSegment:
 
 
 class CmdElbow90:
-    """Comando: Insertar codo 90° LR."""
+    """Comando: Insertar codo 90° LR con geometría real."""
 
     def GetResources(self):
         return {
             "Pixmap": "elbow_90",
             "MenuText": "Codo 90° LR",
-            "ToolTip": "Inserta un codo 90° Long Radius (ASME B16.9)"
+            "ToolTip": "Inserta un codo 90° Long Radius con geometría 3D (ASME B16.9)"
         }
 
     def Activated(self):
-        FreeCAD.Console.PrintMessage("Codo 90°: pendiente implementar\n")
+        from PySide import QtGui
+        
+        diameter, ok1 = QtGui.QInputDialog.getDouble(
+            None, "Codo 90° LR", "Diámetro NPS (pulgadas):",
+            6.0, 0.5, 36.0, 2
+        )
+        if not ok1:
+            return
+            
+        items = ["SCH 40", "SCH 80", "SCH STD", "SCH XS", "SCH XXS", "SCH 160"]
+        schedule, ok2 = QtGui.QInputDialog.getItem(
+            None, "Codo 90° LR", "Cédula:", items, 1, False
+        )
+        if not ok2:
+            return
+
+        angle, ok3 = QtGui.QInputDialog.getDouble(
+            None, "Codo 90° LR", "Ángulo (°):",
+            90.0, 1.0, 90.0, 0
+        )
+        if not ok3:
+            return
+
+        from src.components.elbow_feature import make_elbow
+        elbow = make_elbow(diameter, schedule, angle)
+        if elbow:
+            FreeCAD.Console.PrintMessage(
+                f"Codo creado: NPS {diameter}\" {schedule} {angle}°\n"
+            )
 
     def IsActive(self):
         return FreeCAD.ActiveDocument is not None
 
 
 class CmdFlangeWN:
-    """Comando: Insertar brida WN."""
+    """Comando: Insertar brida WN con geometría real."""
 
     def GetResources(self):
         return {
             "Pixmap": "flange_wn",
             "MenuText": "Brida WN",
-            "ToolTip": "Inserta una brida de cuello soldable (ASME B16.5)"
+            "ToolTip": "Inserta una brida Weld Neck con geometría 3D (ASME B16.5)"
         }
 
     def Activated(self):
-        FreeCAD.Console.PrintMessage("Brida WN: pendiente implementar\n")
+        from PySide import QtGui
+
+        diameter, ok1 = QtGui.QInputDialog.getDouble(
+            None, "Brida Weld Neck", "Diámetro NPS (pulgadas):",
+            6.0, 0.5, 24.0, 2
+        )
+        if not ok1:
+            return
+
+        items = ["150", "300", "600"]
+        cls, ok2 = QtGui.QInputDialog.getItem(
+            None, "Brida Weld Neck", "Clase ASME:", items, 0, False
+        )
+        if not ok2:
+            return
+
+        from src.components.flange_feature import make_flange_wn
+        flange = make_flange_wn(diameter, cls)
+        if flange:
+            FreeCAD.Console.PrintMessage(
+                f"Brida WN creada: NPS {diameter}\" Class {cls}\n"
+            )
 
     def IsActive(self):
         return FreeCAD.ActiveDocument is not None
 
 
 class CmdGenerateIsometric:
-    """Comando: Generar isométrico desde el modelo."""
+    """Comando: Generar isométrico 2D desde el modelo."""
 
     def GetResources(self):
         return {
@@ -102,7 +151,21 @@ class CmdGenerateIsometric:
         }
 
     def Activated(self):
-        FreeCAD.Console.PrintMessage("Isométrico: pendiente implementar\n")
+        from PySide import QtGui, QtCore
+        from src.iso_generator.iso_generator import IsoGenerator
+        
+        doc = FreeCAD.ActiveDocument
+        sel = FreeCADGui.Selection.getSelection()
+        
+        if not sel:
+            QtGui.QMessageBox.warning(
+                None, "Isométrico",
+                "Seleccioná un grupo o un tubo para generar el isométrico."
+            )
+            return
+
+        gen = IsoGenerator(doc)
+        gen.generate(sel)
 
     def IsActive(self):
         return FreeCAD.ActiveDocument is not None
@@ -115,11 +178,26 @@ class CmdGenerateBOM:
         return {
             "Pixmap": "bom",
             "MenuText": "Lista de Materiales (BOM)",
-            "ToolTip": "Genera lista de materiales del modelo de tubería"
+            "ToolTip": "Genera lista de materiales del modelo de tubería seleccionado"
         }
 
     def Activated(self):
-        FreeCAD.Console.PrintMessage("BOM: pendiente implementar\n")
+        from PySide import QtGui
+        from src.iso_generator.bom_generator import BOMGenerator
+        
+        doc = FreeCAD.ActiveDocument
+        sel = FreeCADGui.Selection.getSelection()
+        
+        if not sel:
+            QtGui.QMessageBox.warning(
+                None, "BOM",
+                "Seleccioná objetos del modelo para generar el BOM."
+            )
+            return
+
+        gen = BOMGenerator()
+        bom = gen.generate(sel)
+        gen.show_bom(bom)
 
     def IsActive(self):
         return FreeCAD.ActiveDocument is not None
