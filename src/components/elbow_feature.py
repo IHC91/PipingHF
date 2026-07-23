@@ -68,43 +68,22 @@ class Elbow90:
         fp.Radius = cte
 
         angle_rad = math.radians(fp.Angle)
-        inner_radius = cte - (od / 2.0)
-        outer_radius = cte + (od / 2.0)
 
-        if inner_radius <= 0:
-            inner_radius = od * 0.1
-
-        # Construir el codo como barrido
-        # Perfil: círculo hueco (tubo)
-        wire = Part.Wire([
-            Part.Edge(Part.Circle(Vector(0, 0, 0), Vector(0, 0, 1), od / 2.0)),
-            Part.Edge(Part.Circle(Vector(0, 0, 0), Vector(0, 0, 1), od / 2.0 - wall))
-        ])
-
-        # Cara del perfil
-        face = Part.Face(wire)
-
-        # Trayectoria: arco de 90°
-        edgelist = []
-        for i in range(37):
-            theta = angle_rad * i / 36
-            x = cte * (1 - math.cos(theta))
-            y = cte * math.sin(theta)
-            edgelist.append(Vector(x, y, 0))
-
-        # Crear la spline/arco de la trayectoria
-        path = Part.BSplineCurve()
-        path.interpolate(edgelist)
-        path_edge = Part.Edge(path)
-
-        # Barrido
+        # Construir codo como toroide hueco
+        # Es más confiable en modo consola que el sweep
         try:
-            sweep = Part.Wire([path_edge]).makePipeShell([wire], True, True)
-            fp.Shape = sweep
+            angle_val = float(fp.Angle)
+            # Toroide exterior: codo de radio cte, tubo de radio OD/2
+            outer_torus = Part.makeTorus(cte, od / 2.0, 
+                                          Vector(0, 0, 0), Vector(0, 0, 1),
+                                          angle_val)
+            # Toroide interior: remove el material interior
+            inner_torus = Part.makeTorus(cte, (od / 2.0) - wall,
+                                          Vector(0, 0, 0), Vector(0, 0, 1),
+                                          angle_val)
+            fp.Shape = outer_torus.cut(inner_torus)
         except Exception as e:
-            # Fallback: crear como sólido revolucionado simple
-            FreeCAD.Console.PrintWarning(f"Elbow sweep failed: {e}. Using revolved solid.\n")
-            self._fallback_geometry(fp, od, wall, cte, angle_rad)
+            FreeCAD.Console.PrintError(f"Elbow failed: {e}\n")
 
     def _fallback_geometry(self, fp, od, wall, cte, angle_rad):
         """Geometría alternativa para el codo como revolución de un perfil."""
@@ -157,7 +136,13 @@ def make_elbow(diameter=6.0, schedule="SCH 80", angle=90.0):
 
     obj = doc.addObject("Part::FeaturePython", "Elbow90")
     Elbow90(obj)
-    ViewProviderElbow(obj.ViewObject)
+    
+    try:
+        import FreeCADGui
+        if FreeCADGui.GuiUp:
+            ViewProviderElbow(obj.ViewObject)
+    except Exception:
+        pass
 
     obj.Diameter = diameter
     obj.Schedule = schedule

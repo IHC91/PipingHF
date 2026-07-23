@@ -207,7 +207,14 @@ def make_pipe_segment(diameter=6.0, schedule="SCH 80", length=1000.0, material="
 
     obj = doc.addObject("Part::FeaturePython", "Pipe")
     PipeSegment(obj)
-    ViewProviderPipe(obj.ViewObject)
+    
+    # ViewProvider solo cuando hay GUI
+    try:
+        import FreeCADGui
+        if FreeCADGui.GuiUp:
+            ViewProviderPipe(obj.ViewObject)
+    except Exception:
+        pass
 
     obj.Diameter = diameter
     obj.Schedule = schedule

@@ -156,7 +156,13 @@ def make_flange_wn(diameter=6.0, flange_class="150"):
 
     obj = doc.addObject("Part::FeaturePython", "FlangeWN")
     FlangeWN(obj)
-    ViewProviderFlange(obj.ViewObject)
+    
+    try:
+        import FreeCADGui
+        if FreeCADGui.GuiUp:
+            ViewProviderFlange(obj.ViewObject)
+    except Exception:
+        pass
 
     obj.Diameter = diameter
     obj.Class = flange_class
