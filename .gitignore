@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.FCStd
+*.FCBak
+html/
+.DS_Store
+*.swp
+*.swo
+env/
+.venv/

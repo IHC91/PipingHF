@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="64"
+   viewBox="0 0 64 64"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   sodipodi:docname="clamp.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title6">clamp, U-bolt</title>
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#323232"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#191919"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="11.313708"
+     inkscape:cx="15.600544"
+     inkscape:cy="32.703689"
+     inkscape:window-width="1894"
+     inkscape:window-height="999"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1"
+     showguides="true"
+     inkscape:lockguides="false"
+     guidecolor="#ffff00"
+     guideopacity="0.6"
+     guidehicolor="#ff00ff"
+     guidehiopacity="0.50196078">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="2"
+       spacingy="2"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="4"
+       enabled="true"
+       visible="true" />
+    <sodipodi:guide
+       position="-2,62"
+       orientation="0,1"
+       id="guide5"
+       inkscape:locked="false"
+       inkscape:label="top margin"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="64,2"
+       orientation="0,1"
+       id="guide6"
+       inkscape:locked="false"
+       inkscape:label="bottom margin"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="2,-2"
+       orientation="-1,0"
+       id="guide7"
+       inkscape:locked="false"
+       inkscape:label="right margin"
+       inkscape:color="rgb(255,255,0)" />
+    <sodipodi:guide
+       position="62,64"
+       orientation="-1,0"
+       id="guide8"
+       inkscape:locked="false"
+       inkscape:label="left margin"
+       inkscape:color="rgb(255,255,0)" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient3"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#729fcf;stop-opacity:1;"
+         offset="0"
+         id="stop3" />
+      <stop
+         style="stop-color:#3465a4;stop-opacity:1;"
+         offset="1"
+         id="stop4" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3"
+       id="linearGradient4"
+       x1="10.96875"
+       y1="32"
+       x2="53.03125"
+       y2="32"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3"
+       id="linearGradient6"
+       x1="10.740234"
+       y1="32"
+       x2="52.527344"
+       y2="32"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <metadata
+     id="metadata1">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-nc-sa/4.0/" />
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>hasecilu</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>FreeCAD</rdf:li>
+            <rdf:li>command</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:description>Template file to create icons for FreeCAD commands.</dc:description>
+        <dc:date>2024</dc:date>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title>FreeCAD LGPL2+</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:identifier>FreeCAD/src/</dc:identifier>
+        <dc:publisher>
+          <cc:Agent>
+            <dc:title>FreeCAD</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:relation>https://wiki.freecad.org/Artwork</dc:relation>
+        <dc:title>clamp, U-bolt</dc:title>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:prohibits
+           rdf:resource="http://creativecommons.org/ns#CommercialUse" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <path
+     style="display:none;fill:#729fcf;fill-opacity:1;stroke:#204a87;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 8,12 V 52 L 56,44 V 20 Z"
+     id="path1"
+     inkscape:label="main" />
+  <path
+     id="path2"
+     style="display:none;fill:url(#linearGradient4);fill-opacity:1;stroke:none;stroke-width:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+     inkscape:label="gradient"
+     sodipodi:type="inkscape:offset"
+     inkscape:radius="-0.96875"
+     inkscape:original="M 10 14.361328 L 10 49.638672 L 54 42.3125 L 54 21.6875 L 10 14.361328 z "
+     d="m 10.96875,15.503906 v 32.992188 l 42.0625,-7.003907 V 22.507812 Z" />
+  <path
+     id="rect1"
+     style="fill:#729fcf;stroke:#204a87;stroke-width:1.97228;stroke-dasharray:none;stroke-opacity:1"
+     d="M 31.996398,8.9862211 A 23.013781,23.013781 0 0 0 8.9826171,32.000003 a 23.013781,23.013781 0 0 0 0.00161,0.01605 l -0.00161,0.0017 v 22.978464 c 0,0.01006 0.00759,0.01766 0.017659,0.01766 h 6.5400479 c 0.01006,0 0.01766,-0.0076 0.01766,-0.01766 V 48.024281 32.000037 a 16.438415,16.438415 0 0 1 16.438412,-16.43845 16.438415,16.438415 0 0 1 16.438416,16.438416 v 16.024243 6.989537 h 6.575365 V 32.000003 A 23.013781,23.013781 0 0 0 31.996398,8.9862211 Z" />
+  <path
+     style="display:inline;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-dasharray:8, 2, 2, 2;stroke-dashoffset:0;stroke-opacity:1"
+     d="M 2,32 H 62"
+     id="path11"
+     inkscape:label="horizontal" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-opacity:1;stroke-dasharray:8,2,2,2;stroke-dashoffset:0"
+     d="M 32,62 V 2"
+     id="path4"
+     inkscape:label="vertical" />
+  <path
+     id="path5"
+     style="fill:url(#linearGradient6);fill-opacity:1;stroke:none;stroke-width:1.97228;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:label="gradient"
+     sodipodi:type="inkscape:offset"
+     inkscape:radius="-2.4821329"
+     inkscape:original="M 31.996094 8.9863281 A 23.013781 23.013781 0 0 0 8.9824219 32 A 23.013781 23.013781 0 0 0 8.984375 32.015625 L 8.9824219 32.017578 L 8.9824219 54.996094 C 8.9824219 55.006154 8.989931 55.013672 9 55.013672 L 15.541016 55.013672 C 15.551076 55.013672 15.558594 55.006154 15.558594 54.996094 L 15.558594 48.023438 L 15.558594 32 A 16.438415 16.438415 0 0 1 31.996094 15.5625 A 16.438415 16.438415 0 0 1 48.435547 32 L 48.435547 48.023438 L 48.435547 55.013672 L 55.009766 55.013672 L 55.009766 32 A 23.013781 23.013781 0 0 0 31.996094 8.9863281 z "
+     d="m 31.996094,11.46875 c -5.375141,2.5e-5 -10.71678,2.212874 -14.517578,6.013672 C 13.677717,21.28322 11.464869,26.62486 11.464844,32 l -0.01758,-0.273438 a 2.4823811,2.4823811 0 0 1 -0.707032,2.044922 l 0.72461,-0.726562 V 52.53125 h 1.611328 V 48.023437 32 c 1.03e-4,-1.857564 -0.09037,-0.0069 0.0918,-1.855469 0.182163,-1.848611 -0.09098,-0.01408 0.271484,-1.835937 0.362469,-1.821857 -0.08811,-0.02322 0.451172,-1.800782 0.539284,-1.777559 -0.08395,-0.0319 0.626953,-1.748046 0.710907,-1.716146 -0.08272,-0.03953 0.792969,-1.677735 0.875684,-1.638207 -0.07695,-0.04926 0.955078,-1.59375 1.032029,-1.544494 -0.07297,-0.05433 1.105469,-1.490234 1.178436,-1.435909 -0.0674,-0.06346 1.246093,-1.376953 1.313497,-1.313497 -0.05896,-0.06766 1.376954,-1.246094 1.435908,-1.178436 -0.05426,-0.07344 1.490234,-1.105469 1.544494,-1.032029 -0.04446,-0.07939 1.59375,-0.955078 1.638207,-0.875684 -0.03841,-0.08206 1.677734,-0.792969 1.716146,-0.710906 -0.02951,-0.08767 1.748047,-0.626953 1.77756,-0.539284 -0.02107,-0.0887 1.800781,-0.451172 1.821857,-0.362469 -0.01267,-0.08932 1.835938,-0.271484 1.848611,-0.182163 -0.0021,-0.09169 1.855469,-0.0918 1.857517,-1.17e-4 0.0049,-0.09016 1.853515,0.0918 1.848585,0.181953 0.01604,-0.09079 1.837891,0.271484 1.821848,0.362271 0.02322,-0.08793 1.800781,0.451172 1.777567,0.539099 0.03188,-0.08574 1.748047,0.625 1.716166,0.710736 0.04145,-0.08061 1.679688,0.794922 1.638237,0.875528 0.04727,-0.07876 1.591796,0.953125 1.544532,1.031888 0.05624,-0.07089 1.492188,1.107422 1.435951,1.178311 0.06146,-0.06729 1.375,1.246094 1.313541,1.313385 0.06957,-0.06081 1.248047,1.375 1.178481,1.435811 0.0734,-0.05222 1.105469,1.492187 1.032071,1.544409 0.07935,-0.04634 0.955078,1.591797 0.875722,1.638134 0.08203,-0.03639 0.792968,1.679688 0.71094,1.716081 0.08764,-0.02946 0.626954,1.748046 0.53931,1.777503 0.08868,-0.02102 0.451171,1.800782 0.362487,1.821805 0.08931,-0.01263 0.271485,1.835937 0.182172,1.848563 0.09169,-0.002 0.0918,1.855469 v 16.023437 4.507813 h 1.609375 V 32 C 52.527318,26.62486 50.31447,21.28322 46.513672,17.482422 42.712874,13.681624 37.371234,11.468775 31.996094,11.46875 Z" />
+</svg>

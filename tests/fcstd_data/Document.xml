@@ -1,0 +1,1602 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--
+ FreeCAD Document, see https://www.freecad.org for more information...
+-->
+<Document SchemaVersion="4" ProgramVersion="1.1R20260414 (Git shallow)" FileVersion="1" StringHasher="1">
+    <StringHasher saveall="0" threshold="0" count="0"></StringHasher>
+    <Properties Count="17" TransientCount="3">
+        <_Property name="FileName" type="App::PropertyString" status="50331649"/>
+        <_Property name="Tip" type="App::PropertyLink" status="33554433"/>
+        <_Property name="TransientDir" type="App::PropertyString" status="50331649"/>
+        <Property name="Comment" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Company" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreatedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="CreationDate" type="App::PropertyString" status="16777217">
+            <String value="2026-07-21T16:06:51-05:00"/>
+        </Property>
+        <Property name="Id" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="Label" type="App::PropertyString" status="16777217">
+            <String value="Sin nombre"/>
+        </Property>
+        <Property name="LastModifiedBy" type="App::PropertyString">
+            <String value=""/>
+        </Property>
+        <Property name="LastModifiedDate" type="App::PropertyString" status="16777217">
+            <String value="2026-07-21T17:17:31-05:00"/>
+        </Property>
+        <Property name="License" type="App::PropertyString" status="1">
+            <String value="All rights reserved"/>
+        </Property>
+        <Property name="LicenseURL" type="App::PropertyString" status="1">
+            <String value="https://en.wikipedia.org/wiki/All_rights_reserved"/>
+        </Property>
+        <Property name="Material" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="Meta" type="App::PropertyMap">
+            <Map count="0">
+            </Map>
+        </Property>
+        <Property name="ShowHidden" type="App::PropertyBool" status="1">
+            <Bool value="false"/>
+        </Property>
+        <Property name="TipName" type="App::PropertyString" status="83886080">
+            <String value=""/>
+        </Property>
+        <Property name="Uid" type="App::PropertyUUID" status="16777217">
+            <Uuid value="44873f4f-1bbf-43da-bece-8665de08ea0c"/>
+        </Property>
+        <Property name="UnitSystem" type="App::PropertyEnumeration" status="1">
+            <Integer value="0" CustomEnum="true"/>
+            <CustomEnumList count="10">
+                <Enum value="Estándar (mm, kg, s, °)"/>
+                <Enum value="MKS (m, kg, s, °)"/>
+                <Enum value="Sistema estadounidense (EE. UU) (in, lb)"/>
+                <Enum value="Decimales imperiales (in, lb)"/>
+                <Enum value="Construcción europea (cm, m², m³)"/>
+                <Enum value="Construcción estadounidense (ft-in, sqft, cft)"/>
+                <Enum value="Piezas pequeñas métricas y CNC (mm, mm/min)"/>
+                <Enum value="Imperial para ingeniería civil (pies, libras, millas por hora)"/>
+                <Enum value="FEM (mm, N, s)"/>
+                <Enum value="Metro decimal (m, m², m³)"/>
+            </CustomEnumList>
+        </Property>
+        <Property name="UseHasher" type="App::PropertyBool" status="67108865">
+            <Bool value="true"/>
+        </Property>
+    </Properties>
+    <Objects Count="20" Dependencies="1">
+        <ObjectDeps Name="Body" Count="1">
+            <Dep Name="Origin"/>
+        </ObjectDeps>
+        <ObjectDeps Name="Origin" Count="7">
+            <Dep Name="X_Axis"/>
+            <Dep Name="Y_Axis"/>
+            <Dep Name="Z_Axis"/>
+            <Dep Name="XY_Plane"/>
+            <Dep Name="XZ_Plane"/>
+            <Dep Name="YZ_Plane"/>
+            <Dep Name="Origin001"/>
+        </ObjectDeps>
+        <ObjectDeps Name="X_Axis" Count="0"/>
+        <ObjectDeps Name="Y_Axis" Count="0"/>
+        <ObjectDeps Name="Z_Axis" Count="0"/>
+        <ObjectDeps Name="XY_Plane" Count="0"/>
+        <ObjectDeps Name="XZ_Plane" Count="0"/>
+        <ObjectDeps Name="YZ_Plane" Count="0"/>
+        <ObjectDeps Name="Origin001" Count="0"/>
+        <ObjectDeps Name="Flange" Count="0"/>
+        <ObjectDeps Name="Tee" Count="0"/>
+        <ObjectDeps Name="Reduction" Count="0"/>
+        <ObjectDeps Name="Reduction001" Count="0"/>
+        <ObjectDeps Name="Flange001" Count="0"/>
+        <ObjectDeps Name="Elbow" Count="0"/>
+        <ObjectDeps Name="Tube" Count="0"/>
+        <ObjectDeps Name="Elbow001" Count="0"/>
+        <ObjectDeps Name="Tube001" Count="0"/>
+        <ObjectDeps Name="Elbow002" Count="0"/>
+        <ObjectDeps Name="Flange002" Count="0"/>
+        <Object type="PartDesign::Body" name="Body" id="1285" />
+        <Object type="App::Origin" name="Origin" id="1286" />
+        <Object type="App::Line" name="X_Axis" id="1287" />
+        <Object type="App::Line" name="Y_Axis" id="1288" />
+        <Object type="App::Line" name="Z_Axis" id="1289" />
+        <Object type="App::Plane" name="XY_Plane" id="1290" />
+        <Object type="App::Plane" name="XZ_Plane" id="1291" />
+        <Object type="App::Plane" name="YZ_Plane" id="1292" />
+        <Object type="App::Point" name="Origin001" id="1293" />
+        <Object type="Part::FeaturePython" name="Flange" id="1294" />
+        <Object type="Part::FeaturePython" name="Tee" id="1295" />
+        <Object type="Part::FeaturePython" name="Reduction" id="1296" />
+        <Object type="Part::FeaturePython" name="Reduction001" id="1297" />
+        <Object type="Part::FeaturePython" name="Flange001" id="1298" />
+        <Object type="Part::FeaturePython" name="Elbow" id="1299" />
+        <Object type="Part::FeaturePython" name="Tube" id="1300" />
+        <Object type="Part::FeaturePython" name="Elbow001" id="1301" />
+        <Object type="Part::FeaturePython" name="Tube001" id="1302" />
+        <Object type="Part::FeaturePython" name="Elbow002" id="1303" />
+        <Object type="Part::FeaturePython" name="Flange002" id="1305" />
+    </Objects>
+    <ObjectData Count="20">
+        <Object name="Body" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::OriginGroupExtension" name="OriginGroupExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="12" TransientCount="2">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <_Property name="_GroupTouched" type="App::PropertyBool" status="100663424"/>
+                <Property name="AllowCompound" type="App::PropertyBool">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="BaseFeature" type="App::PropertyLink">
+                    <Link value=""/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Group" type="App::PropertyLinkList">
+                    <LinkList count="0">
+                    </LinkList>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Cuerpo"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Origin" type="App::PropertyLink" status="67108864">
+                    <Link value="Origin"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part ElementMap="15.70200.5" file="Body.Shape.brp"/>
+                    <ElementMap/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="Tip" type="App::PropertyLink">
+                    <Link value=""/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Origin" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="App::GeoFeatureGroupExtension" name="GeoFeatureGroupExtension">
+                </Extension>
+            </Extensions>
+            <Properties Count="6" TransientCount="3">
+                <_Property name="Group" type="App::PropertyLinkList" status="16"/>
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <_Property name="_GroupTouched" type="App::PropertyBool" status="100663296"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Origen de coordenadas001"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="OriginFeatures" type="App::PropertyLinkList" status="67108864">
+                    <LinkList count="7">
+                        <Link value="X_Axis"/>
+                        <Link value="Y_Axis"/>
+                        <Link value="Z_Axis"/>
+                        <Link value="XY_Plane"/>
+                        <Link value="XZ_Plane"/>
+                        <Link value="YZ_Plane"/>
+                        <Link value="Origin001"/>
+                    </LinkList>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="false"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="X_Axis">
+            <Properties Count="6" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Eje X"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777224">
+                    <String value="X_Axis"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Y_Axis">
+            <Properties Count="6" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Eje Y"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000000" Q3="0.5000000000000001" A="2.0943951023931953" Ox="1.0000000000000000" Oy="1.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777224">
+                    <String value="Y_Axis"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Z_Axis">
+            <Properties Count="6" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Eje Z"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.5000000000000000" Q1="-0.5000000000000000" Q2="0.5000000000000000" Q3="0.5000000000000001" A="2.0943951023931953" Ox="1.0000000000000000" Oy="-1.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777224">
+                    <String value="Z_Axis"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="XY_Plane">
+            <Properties Count="6" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Plano XY"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777224">
+                    <String value="XY_Plane"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="XZ_Plane">
+            <Properties Count="6" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Plano XZ"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.7071067811865475" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="0.7071067811865475" A="1.5707963267948968" Ox="0.9999999999999999" Oy="0.0000000000000000" Oz="0.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777224">
+                    <String value="XZ_Plane"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="YZ_Plane">
+            <Properties Count="6" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Plano YZ"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.5000000000000000" Q1="0.5000000000000000" Q2="0.5000000000000000" Q3="0.5000000000000001" A="2.0943951023931953" Ox="1.0000000000000000" Oy="1.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777224">
+                    <String value="YZ_Plane"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Origin001">
+            <Properties Count="6" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Origen de coordenadas"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388616">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="Role" type="App::PropertyString" status="16777224">
+                    <String value="Origin"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Flange" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="38" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="B2" type="App::PropertyLength" group="Flange Socket welding" doc="Socket diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="D" type="App::PropertyLength" group="Flange" doc="Flange diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="469.8999999999999773"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="FClass" type="App::PropertyString" group="Flange" doc="Flange pressure class" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="900lb"/>
+                </Property>
+                <Property name="FlangeType" type="App::PropertyString" group="Flange" doc="Type of flange" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="WN"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Brida"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="ODp" type="App::PropertyLength" group="Flange2" doc="Outside diameter of pipe" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="219.1999999999999886"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-80"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN200"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Flange"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-0.0000000000000016" Py="0.0000000000000000" Pz="-155.6500000000000057" Q0="0.7071067811865476" Q1="0.0000000000000001" Q2="0.0000000000000001" Q3="-0.7071067811865476" A="4.7123889803846897" Ox="1.0000000000000000" Oy="0.0000000000000001" Oz="0.0000000000000001"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIkZsYW5nZSIsICJUeXBlIjogIkZsYW5nZSJ9" encoded="yes" module="pFeatures" class="Flange"/>
+                </Property>
+                <Property name="R" type="App::PropertyLength" group="Flange" doc="Flange fillet radius" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="12.6999999999999993"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part HasherIndex="0" ElementMap="15.70200.5" file="Flange.Shape.brp"/>
+                    <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+                    <ElementMap2 file="Flange.Shape.Map.txt"/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="T1" type="App::PropertyLength" group="Flange" doc="Flange neck length" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="162.0500000000000114"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Y" type="App::PropertyLength" group="Flange Socket welding" doc="Socket depth" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="d" type="App::PropertyLength" group="Flange" doc="Bore diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="193.6699999999999875"/>
+                </Property>
+                <Property name="df" type="App::PropertyLength" group="Flange" doc="Bolts distance" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="393.6999999999999886"/>
+                </Property>
+                <Property name="drf" type="App::PropertyLength" group="Flange2" doc="Diameter of raised face" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="269.7500000000000000"/>
+                </Property>
+                <Property name="dwn" type="App::PropertyLength" group="Flange2" doc="Diameter of welding neck" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="298.4499999999999886"/>
+                </Property>
+                <Property name="f" type="App::PropertyLength" group="Flange" doc="Bolts hole diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="38.1000000000000014"/>
+                </Property>
+                <Property name="n" type="App::PropertyInteger" group="Flange" doc="Nr. of bolts" attr="0" ro="0" hide="0" status="2097152">
+                    <Integer value="12"/>
+                </Property>
+                <Property name="t" type="App::PropertyLength" group="Flange" doc="Thickness of flange" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="63.5000000000000000"/>
+                </Property>
+                <Property name="trf" type="App::PropertyLength" group="Flange2" doc="Thickness of raised face" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="6.4000000000000004"/>
+                </Property>
+                <Property name="twn" type="App::PropertyLength" group="Flange2" doc="Length of welding neck" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="78.8400000000000034"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Tee" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="30" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="C" type="App::PropertyLength" group="Tee" doc="Run half length" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="178.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Tee"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="M" type="App::PropertyLength" group="Tee" doc="Branch length" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="178.0000000000000000"/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OD" type="App::PropertyLength" group="Tee" doc="Run diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="219.0699999999999932"/>
+                </Property>
+                <Property name="OD2" type="App::PropertyLength" group="Tee" doc="Branch diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="219.0699999999999932"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-XS"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN200"/>
+                </Property>
+                <Property name="PSizeBranch" type="App::PropertyString" group="Tee" doc="Nominal diameter of branch end" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN200"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Tee"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-0.0000000000000016" Py="340.0500000000000682" Pz="-155.6500000000000057" Q0="-0.0000000000000002" Q1="-0.7071067811865476" Q2="-0.7071067811865476" Q3="0.0000000000000002" A="3.1415926535897931" Ox="-0.0000000000000002" Oy="-0.7071067811865476" Oz="-0.7071067811865476"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections1"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports1"/>
+                </Property>
+                <Property name="Profile" type="App::PropertyString" group="Tee" doc="Run and Branch Size" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="219.07 mmx219.07 mm"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIlRlZSJ9" encoded="yes" module="pFeatures" class="Tee"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part HasherIndex="0" ElementMap="15.70200.5" file="Tee.Shape.brp"/>
+                    <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+                    <ElementMap2 file="Tee.Shape.Map.txt"/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="offset" type="App::PropertyLength" group="Tee" doc="Straight tee offset length" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="1.0000000000000000"/>
+                </Property>
+                <Property name="thk" type="App::PropertyLength" group="Tee" doc="Run Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="12.6999999999999993"/>
+                </Property>
+                <Property name="thk2" type="App::PropertyLength" group="Tee" doc="Branch Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="12.6999999999999993"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Reduction" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="30" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Height" type="App::PropertyLength" group="Reduction" doc="Length of reduction" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="152.0000000000000000"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Reducción"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OD" type="App::PropertyLength" group="Reduct" doc="Major diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="219.0699999999999932"/>
+                </Property>
+                <Property name="OD2" type="App::PropertyLength" group="Reduct" doc="Minor diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="168.2700000000000102"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-XS"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN200"/>
+                </Property>
+                <Property name="PSize2" type="App::PropertyString" group="Reduct" doc="Nominal diameter (minor end)" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN150"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Reduct"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="0.0000000000000761" Py="340.0500000000000682" Pz="22.3500000000000227" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections2"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports2"/>
+                </Property>
+                <Property name="Profile" type="App::PropertyString" group="Reduct" doc="Section dim." attr="0" ro="0" hide="0" status="2097152">
+                    <String value="219.07 mmx168.27 mm"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIlJlZHVjdGlvbiJ9" encoded="yes" module="pFeatures" class="Reduct"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part ElementMap="15.70200.5" file="Reduction.Shape.brp"/>
+                    <ElementMap/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="calcH" type="App::PropertyBool" group="Reduct" doc="Make the length variable" attr="0" ro="0" hide="0" status="2097152">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="conc" type="App::PropertyBool" group="Reduct" doc="Concentric or Eccentric" attr="0" ro="0" hide="0" status="2097152">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="thk" type="App::PropertyLength" group="Reduct" doc="Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="12.6999999999999993"/>
+                </Property>
+                <Property name="thk2" type="App::PropertyLength" group="Reduct" doc="Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="10.9700000000000006"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Reduction001" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="30" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Height" type="App::PropertyLength" group="Reduction" doc="Length of reduction" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="152.0000000000000000"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Reducción001"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OD" type="App::PropertyLength" group="Reduct" doc="Major diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="219.0699999999999932"/>
+                </Property>
+                <Property name="OD2" type="App::PropertyLength" group="Reduct" doc="Minor diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="168.2700000000000102"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-XS"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN200"/>
+                </Property>
+                <Property name="PSize2" type="App::PropertyString" group="Reduct" doc="Nominal diameter (minor end)" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN150"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Reduct"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-0.0000000000000016" Py="518.0500000000000682" Pz="-155.6500000000000057" Q0="-0.7071067811865476" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="0.7071067811865476" A="1.5707963267948966" Ox="-1.0000000000000000" Oy="0.0000000000000000" Oz="0.0000000000000000"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections3"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports3"/>
+                </Property>
+                <Property name="Profile" type="App::PropertyString" group="Reduct" doc="Section dim." attr="0" ro="0" hide="0" status="2097152">
+                    <String value="219.07 mmx168.27 mm"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIlJlZHVjdGlvbjAwMSJ9" encoded="yes" module="pFeatures" class="Reduct"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part ElementMap="15.70200.5" file="Reduction001.Shape.brp"/>
+                    <ElementMap/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="calcH" type="App::PropertyBool" group="Reduct" doc="Make the length variable" attr="0" ro="0" hide="0" status="2097152">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="conc" type="App::PropertyBool" group="Reduct" doc="Concentric or Eccentric" attr="0" ro="0" hide="0" status="2097152">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="thk" type="App::PropertyLength" group="Reduct" doc="Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="12.6999999999999993"/>
+                </Property>
+                <Property name="thk2" type="App::PropertyLength" group="Reduct" doc="Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="10.9700000000000006"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Flange001" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="38" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="B2" type="App::PropertyLength" group="Flange Socket welding" doc="Socket diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="D" type="App::PropertyLength" group="Flange" doc="Flange diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="355.6000000000000227"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="FClass" type="App::PropertyString" group="Flange" doc="Flange pressure class" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="600lb"/>
+                </Property>
+                <Property name="FlangeType" type="App::PropertyString" group="Flange" doc="Type of flange" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="WN"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Brida001"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="ODp" type="App::PropertyLength" group="Flange2" doc="Outside diameter of pipe" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="168.4000000000000057"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-80"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN150"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Flange"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="0.0000000000000618" Py="340.0500000000000682" Pz="291.7000000000000455" Q0="0.0000000000000000" Q1="1.0000000000000000" Q2="0.0000000000000000" Q3="0.0000000000000001" A="3.1415926535897931" Ox="0.0000000000000000" Oy="1.0000000000000000" Oz="0.0000000000000000"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections4"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports4"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIkZsYW5nZTAwMSIsICJUeXBlIjogIkZsYW5nZSJ9" encoded="yes" module="pFeatures" class="Flange"/>
+                </Property>
+                <Property name="R" type="App::PropertyLength" group="Flange" doc="Flange fillet radius" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="12.6999999999999993"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part HasherIndex="0" ElementMap="15.70200.5" file="Flange001.Shape.brp"/>
+                    <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+                    <ElementMap2 file="Flange001.Shape.Map.txt"/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="T1" type="App::PropertyLength" group="Flange" doc="Flange neck length" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="117.3499999999999943"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Y" type="App::PropertyLength" group="Flange Socket welding" doc="Socket depth" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="d" type="App::PropertyLength" group="Flange" doc="Bore diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="146.3300000000000125"/>
+                </Property>
+                <Property name="df" type="App::PropertyLength" group="Flange" doc="Bolts distance" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="292.1000000000000227"/>
+                </Property>
+                <Property name="drf" type="App::PropertyLength" group="Flange2" doc="Diameter of raised face" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="215.9000000000000057"/>
+                </Property>
+                <Property name="dwn" type="App::PropertyLength" group="Flange2" doc="Diameter of welding neck" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="222.2500000000000000"/>
+                </Property>
+                <Property name="f" type="App::PropertyLength" group="Flange" doc="Bolts hole diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="28.4499999999999993"/>
+                </Property>
+                <Property name="n" type="App::PropertyInteger" group="Flange" doc="Nr. of bolts" attr="0" ro="0" hide="0" status="2097152">
+                    <Integer value="12"/>
+                </Property>
+                <Property name="t" type="App::PropertyLength" group="Flange" doc="Thickness of flange" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="47.7500000000000000"/>
+                </Property>
+                <Property name="trf" type="App::PropertyLength" group="Flange2" doc="Thickness of raised face" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="6.4000000000000004"/>
+                </Property>
+                <Property name="twn" type="App::PropertyLength" group="Flange2" doc="Length of welding neck" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="55.6300000000000026"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Elbow" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="27" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="BendAngle" type="App::PropertyAngle" group="Elbow" doc="Bend Angle" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="90.0000000000000000"/>
+                </Property>
+                <Property name="BendRadius" type="App::PropertyLength" group="Elbow" doc="Bend Radius" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="229.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ID" type="App::PropertyLength" group="Elbow" doc="Inside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="146.3300000000000125"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Codo"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OD" type="App::PropertyLength" group="Elbow" doc="Outside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="168.2700000000000102"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-XS_LR90"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN150"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Elbow"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-0.0000000000000296" Py="899.0500000000000682" Pz="-155.6500000000000057" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="-1.0000000000000000" Q3="0.0000000000000001" A="3.1415926535897931" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="-1.0000000000000000"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections5"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports5"/>
+                </Property>
+                <Property name="Profile" type="App::PropertyString" group="Elbow" doc="Section dim." attr="0" ro="0" hide="0" status="2097152">
+                    <String value="168.27 mmx10.969999999999999 mm"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIkVsYm93In0=" encoded="yes" module="pFeatures" class="Elbow"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part HasherIndex="0" ElementMap="15.70200.5" file="Elbow.Shape.brp"/>
+                    <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+                    <ElementMap2 file="Elbow.Shape.Map.txt"/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="thk" type="App::PropertyLength" group="Elbow" doc="Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="10.9699999999999989"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Tube" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="26" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Height" type="App::PropertyLength" group="Pipe" doc="Length of tube" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="543.0000000000000000"/>
+                </Property>
+                <Property name="ID" type="App::PropertyLength" group="Pipe" doc="Inside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="154.0500000000000114"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Tubo"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OD" type="App::PropertyLength" group="Pipe" doc="Outside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="168.2700000000000102"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="ConduitEMT-LIGHT"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN150"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Pipe"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-229.0000000000000000" Py="899.0500000000000682" Pz="-155.6500000000000057" Q0="-0.0000000000000000" Q1="-0.7071067811865476" Q2="0.0000000000000000" Q3="0.7071067811865476" A="1.5707963267948966" Ox="-0.0000000000000001" Oy="-1.0000000000000000" Oz="0.0000000000000000"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections6"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports6"/>
+                </Property>
+                <Property name="Profile" type="App::PropertyString" group="Pipe" doc="Section dim." attr="0" ro="0" hide="0" status="2097152">
+                    <String value="168.27 mmx7.109999999999999 mm"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIlR1YmUifQ==" encoded="yes" module="pFeatures" class="Pipe"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part ElementMap="15.70200.5" file="Tube.Shape.brp"/>
+                    <ElementMap/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="thk" type="App::PropertyLength" group="Pipe" doc="Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="7.1099999999999994"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Elbow001" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="27" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="BendAngle" type="App::PropertyAngle" group="Elbow" doc="Bend Angle" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="90.0000000000000000"/>
+                </Property>
+                <Property name="BendRadius" type="App::PropertyLength" group="Elbow" doc="Bend Radius" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="229.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ID" type="App::PropertyLength" group="Elbow" doc="Inside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="146.3300000000000125"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Codo001"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OD" type="App::PropertyLength" group="Elbow" doc="Outside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="168.2700000000000102"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-XS_LR90"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN150"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Elbow"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-1001.0000000000001137" Py="899.0500000000000682" Pz="-155.6500000000000057" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="-0.7071067811865475" Q3="0.7071067811865476" A="1.5707963267948966" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="-0.9999999999999999"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections7"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports7"/>
+                </Property>
+                <Property name="Profile" type="App::PropertyString" group="Elbow" doc="Section dim." attr="0" ro="0" hide="0" status="2097152">
+                    <String value="168.27 mmx10.969999999999999 mm"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIkVsYm93MDAxIn0=" encoded="yes" module="pFeatures" class="Elbow"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part HasherIndex="0" ElementMap="15.70200.5" file="Elbow001.Shape.brp"/>
+                    <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+                    <ElementMap2 file="Elbow001.Shape.Map.txt"/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="thk" type="App::PropertyLength" group="Elbow" doc="Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="10.9699999999999989"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Tube001" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="26" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="Height" type="App::PropertyLength" group="Pipe" doc="Length of tube" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="100.0000000000000000"/>
+                </Property>
+                <Property name="ID" type="App::PropertyLength" group="Pipe" doc="Inside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="146.3300000000000125"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Tubo001"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OD" type="App::PropertyLength" group="Pipe" doc="Outside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="168.2700000000000102"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-80"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN150"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Pipe"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-1001.0000000000001137" Py="670.0500000000000682" Pz="-155.6500000000000057" Q0="0.7071067811865476" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="0.7071067811865476" A="1.5707963267948966" Ox="1.0000000000000000" Oy="0.0000000000000000" Oz="0.0000000000000000"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections8"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports8"/>
+                </Property>
+                <Property name="Profile" type="App::PropertyString" group="Pipe" doc="Section dim." attr="0" ro="0" hide="0" status="2097152">
+                    <String value="168.27 mmx10.969999999999999 mm"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIlR1YmUwMDEifQ==" encoded="yes" module="pFeatures" class="Pipe"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part ElementMap="15.70200.5" file="Tube001.Shape.brp"/>
+                    <ElementMap/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="thk" type="App::PropertyLength" group="Pipe" doc="Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="10.9699999999999989"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Elbow002" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="27" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="BendAngle" type="App::PropertyAngle" group="Elbow" doc="Bend Angle" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="90.0000000000000000"/>
+                </Property>
+                <Property name="BendRadius" type="App::PropertyLength" group="Elbow" doc="Bend Radius" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="229.0000000000000000"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="ID" type="App::PropertyLength" group="Elbow" doc="Inside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="146.3300000000000125"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Codo002"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="OD" type="App::PropertyLength" group="Elbow" doc="Outside diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="168.2700000000000102"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-XS_LR90"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN150"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Elbow"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-1001.0000000000001137" Py="341.0499999999999545" Pz="-155.6500000000000057" Q0="-0.0000000000000000" Q1="1.0000000000000000" Q2="-0.0000000000000000" Q3="0.0000000000000002" A="3.1415926535897927" Ox="-0.0000000000000000" Oy="1.0000000000000000" Oz="-0.0000000000000000"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections9"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports9"/>
+                </Property>
+                <Property name="Profile" type="App::PropertyString" group="Elbow" doc="Section dim." attr="0" ro="0" hide="0" status="2097152">
+                    <String value="168.27 mmx10.969999999999999 mm"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIkVsYm93MDAyIn0=" encoded="yes" module="pFeatures" class="Elbow"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part HasherIndex="0" ElementMap="15.70200.5" file="Elbow002.Shape.brp"/>
+                    <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+                    <ElementMap2 file="Elbow002.Shape.Map.txt"/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="thk" type="App::PropertyLength" group="Elbow" doc="Wall thickness" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="10.9699999999999989"/>
+                </Property>
+            </Properties>
+        </Object>
+        <Object name="Flange002" Extensions="True">
+            <Extensions Count="1">
+                <Extension type="Part::AttachExtensionPython" name="AttachExtensionPython">
+                </Extension>
+            </Extensions>
+            <Properties Count="38" TransientCount="1">
+                <_Property name="_ElementMapVersion" type="App::PropertyString" status="234881024"/>
+                <Property name="AttacherEngine" type="App::PropertyEnumeration">
+                    <Integer value="0" CustomEnum="true"/>
+                    <CustomEnumList count="4">
+                        <Enum value="Engine 3D"/>
+                        <Enum value="Engine Plane"/>
+                        <Enum value="Engine Line"/>
+                        <Enum value="Engine Point"/>
+                    </CustomEnumList>
+                </Property>
+                <Property name="AttacherType" type="App::PropertyString" status="83886080">
+                    <String value="Attacher::AttachEngine3D"/>
+                </Property>
+                <Property name="AttachmentOffset" type="App::PropertyPlacement" status="8">
+                    <PropertyPlacement Px="0.0000000000000000" Py="0.0000000000000000" Pz="0.0000000000000000" Q0="0.0000000000000000" Q1="0.0000000000000000" Q2="0.0000000000000000" Q3="1.0000000000000000" A="0.0000000000000000" Ox="0.0000000000000000" Oy="0.0000000000000000" Oz="1.0000000000000000"/>
+                </Property>
+                <Property name="AttachmentSupport" type="App::PropertyLinkSubList">
+                    <LinkSubList count="0">
+                    </LinkSubList>
+                </Property>
+                <Property name="B2" type="App::PropertyLength" group="Flange Socket welding" doc="Socket diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="D" type="App::PropertyLength" group="Flange" doc="Flange diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="355.6000000000000227"/>
+                </Property>
+                <Property name="ExpressionEngine" type="App::PropertyExpressionEngine" status="67108864">
+                    <ExpressionEngine count="0">
+                    </ExpressionEngine>
+                </Property>
+                <Property name="FClass" type="App::PropertyString" group="Flange" doc="Flange pressure class" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="600lb"/>
+                </Property>
+                <Property name="FlangeType" type="App::PropertyString" group="Flange" doc="Type of flange" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="WN"/>
+                </Property>
+                <Property name="Kv" type="App::PropertyFloat" group="PBase" doc="Flow factor (m3/h/bar)" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="Label" type="App::PropertyString" status="134217728">
+                    <String value="Brida002"/>
+                </Property>
+                <Property name="Label2" type="App::PropertyString" status="67108992">
+                    <String value=""/>
+                </Property>
+                <Property name="MapMode" type="App::PropertyEnumeration">
+                    <Integer value="0"/>
+                </Property>
+                <Property name="MapPathParameter" type="App::PropertyFloat" status="8">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="MapReversed" type="App::PropertyBool" status="8">
+                    <Bool value="false"/>
+                </Property>
+                <Property name="ODp" type="App::PropertyLength" group="Flange2" doc="Outside diameter of pipe" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="168.4000000000000057"/>
+                </Property>
+                <Property name="PRating" type="App::PropertyString" group="PBase" doc="Rating of pipeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="SCH-80"/>
+                </Property>
+                <Property name="PSize" type="App::PropertyString" group="PBase" doc="Nominal diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="DN150"/>
+                </Property>
+                <Property name="PType" type="App::PropertyString" group="PBase" doc="Type of tubeFeature" attr="0" ro="0" hide="0" status="2097152">
+                    <String value="Flange"/>
+                </Property>
+                <Property name="Placement" type="App::PropertyPlacement" status="8388608">
+                    <PropertyPlacement Px="-1347.3499999999999091" Py="341.0499999999998977" Pz="-155.6500000000001762" Q0="-0.7071067811865474" Q1="-0.0000000000000002" Q2="-0.7071067811865477" Q3="0.0000000000000000" A="3.1415926535897931" Ox="-0.7071067811865474" Oy="-0.0000000000000002" Oz="-0.7071067811865477"/>
+                </Property>
+                <Property name="PortDirections" type="App::PropertyVectorList" group="PBase" doc="Port direction vectors (unit vectors pointing outward from each port)" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="PortDirections10"/>
+                </Property>
+                <Property name="Ports" type="App::PropertyVectorList" group="PBase" doc="Ports position relative to the origin of Shape" attr="0" ro="0" hide="0" status="2097152">
+                    <VectorList file="Ports10"/>
+                </Property>
+                <Property name="Proxy" type="App::PropertyPythonObject">
+                    <Python value="eyJOYW1lIjogIkZsYW5nZTAwMiIsICJUeXBlIjogIkZsYW5nZSJ9" encoded="yes" module="pFeatures" class="Flange"/>
+                </Property>
+                <Property name="R" type="App::PropertyLength" group="Flange" doc="Flange fillet radius" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="12.6999999999999993"/>
+                </Property>
+                <Property name="Shape" type="Part::PropertyPartShape">
+                    <Part HasherIndex="0" ElementMap="15.70200.5" file="Flange002.Shape.brp"/>
+                    <ElementMap new="1" count="1"><Element key="Dummy" value="Dummy"/></ElementMap>
+                    <ElementMap2 file="Flange002.Shape.Map.txt"/>
+                </Property>
+                <Property name="ShapeMaterial" type="Materials::PropertyMaterial">
+                    <PropertyMaterial uuid="7f9fd73b-50c9-41d8-b7b2-575a030c1eeb"/>
+                </Property>
+                <Property name="T1" type="App::PropertyLength" group="Flange" doc="Flange neck length" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="117.3499999999999943"/>
+                </Property>
+                <Property name="Visibility" type="App::PropertyBool" status="648">
+                    <Bool value="true"/>
+                </Property>
+                <Property name="Y" type="App::PropertyLength" group="Flange Socket welding" doc="Socket depth" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="0.0000000000000000"/>
+                </Property>
+                <Property name="d" type="App::PropertyLength" group="Flange" doc="Bore diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="146.3300000000000125"/>
+                </Property>
+                <Property name="df" type="App::PropertyLength" group="Flange" doc="Bolts distance" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="292.1000000000000227"/>
+                </Property>
+                <Property name="drf" type="App::PropertyLength" group="Flange2" doc="Diameter of raised face" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="215.9000000000000057"/>
+                </Property>
+                <Property name="dwn" type="App::PropertyLength" group="Flange2" doc="Diameter of welding neck" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="222.2500000000000000"/>
+                </Property>
+                <Property name="f" type="App::PropertyLength" group="Flange" doc="Bolts hole diameter" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="28.4499999999999993"/>
+                </Property>
+                <Property name="n" type="App::PropertyInteger" group="Flange" doc="Nr. of bolts" attr="0" ro="0" hide="0" status="2097152">
+                    <Integer value="12"/>
+                </Property>
+                <Property name="t" type="App::PropertyLength" group="Flange" doc="Thickness of flange" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="47.7500000000000000"/>
+                </Property>
+                <Property name="trf" type="App::PropertyLength" group="Flange2" doc="Thickness of raised face" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="6.4000000000000004"/>
+                </Property>
+                <Property name="twn" type="App::PropertyLength" group="Flange2" doc="Length of welding neck" attr="0" ro="0" hide="0" status="2097152">
+                    <Float value="55.6300000000000026"/>
+                </Property>
+            </Properties>
+        </Object>
+    </ObjectData>
+</Document>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+
+  <name>PipingHF</name>
+
+  <description>PipingHF — FreeCAD Workbench para diseño 3D de tuberías con generación automática de isométricos, BOM, spools y soldaduras. Basado en Quetzal/Dodo.</description>
+
+  <version>0.1.0</version>
+
+  <date>2026-07-23</date>
+
+  <maintainer email="ingresidentemecanico@hfingenieria.com">Ivan Hoyos</maintainer>
+
+  <license file="LICENSE">LGPL-3.0-or-later</license>
+
+  <pythonmin>3.7.0</pythonmin>
+
+  <url branch="master" type="repository">https://github.com/IHC91/PipingHF</url>
+
+  <url type="bugtracker">https://github.com/IHC91/PipingHF/issues</url>
+
+  <url type="readme">https://github.com/EdgarJRobles/quetzal/blob/master/README.md</url>
+
+  <url type="documentation">https://wiki.freecad.org/Quetzal_Workbench</url>
+
+  <url type="discussion">https://forum.freecad.org/viewtopic.php?t=22711</url>
+
+  <author>microelly</author>
+  <author>looo</author>
+  <author>triplus</author>
+  <author>Riccardo Treu (oddtopus)</author>
+  <author>Edgar Robles</author>
+
+  <icon>iconz/quetzal.svg</icon>
+
+  <content>
+    <workbench>
+      <depend>typing-extensions</depend>
+      <depend>Draft</depend>
+      <tag>beams</tag>
+      <tag>frames</tag>
+      <tag>pipe</tag>
+      <tag>pipelines</tag>
+      <icon>iconz/quetzal.svg</icon>
+      <classname>QuetzalWorkbench</classname>
+      <subdirectory>./</subdirectory>
+    </workbench>
+  </content>
+
+</package>

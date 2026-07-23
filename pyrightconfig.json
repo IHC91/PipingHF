@@ -1,0 +1,28 @@
+{
+  "include": [
+    "iconz",
+    "dialogz",
+    "shapez",
+    "tablez",
+    "cut_list"
+  ],
+  "stubPath": "/home/edgar/.platformio/penv/lib/python3.12/site-packages/FreeCAD-stubs",
+  "stubPath": "/home/edgar/.platformio/penv/lib/python3.12/site-packages/FreeCADGui-stubs",
+  "stubPath": "/home/edgar/.platformio/penv/lib/python3.12/site-packages/Part-stubs",
+  "stubPath": "/home/edgar/.platformio/penv/lib/python3.12/site-packages/Sketcher-stubs",
+  "pythonPlatform": "Linux",
+  "extraPaths": [
+    "/home/edgar/.platformio/penv/lib/python3.12/site-packages",
+    "/usr/local/Mod/Part",
+    "/usr/local/Mod/Draft",
+    "/usr/local/Mod/BIM",
+    "/usr/local/lib",
+    "/usr/lib",
+    "/usr/share/freecad-daily/Mod/Draft",
+    "/usr/share/freecad-daily/Mod/Draft/draftfunctions",
+    "/usr/share/freecad-daily/Mod/Draft/draftguitools",
+    "/usr/share/freecad-daily/Mod/Draft/draftutils",
+    "/usr/share/freecad-daily/Ext",
+    "/usr/lib/python3/dist-packages"
+  ]
+}

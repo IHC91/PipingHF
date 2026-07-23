@@ -1,0 +1,201 @@
+BeginElementMap v1
+5 PostfixCount 37
+Edge
+Face
+Vertex
+;:M;FUS
+;D138a
+;D73e
+;D73e;:L(Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS|Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS;:U;FUS;:L(Vertex1;D1db6);FUS);FUS
+;D73e;:L(Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS|Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS;:U;FUS;:L(Vertex1;D1db6);FUS);FUS;:G;RFI
+;D73e;:L(Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS|Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS;:U;FUS;:L(Vertex1;D1db6);FUS);FUS;:G;RFI;:U2;RFI
+;D73e;:L(Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS|Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS;:U;FUS;:L(Vertex1;D1db6);FUS);FUS;:G;RFI;:U2;RFI;:U2;RFI
+;D73e;:L(Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS|Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS;:U;FUS;:L(Vertex1;D1db6);FUS);FUS;:G;RFI;:U2;RFI;:U;RFI
+;D73e;:L(Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS|Edge2;:L;FUS;:L;FUS;:M;FUS;:U;FUS;:U;FUS;:L(Vertex1;D1db6);FUS);FUS;:G;RFI;:U;RFI
+;Da83
+;:L;FUS;:L;FUS;:M;FUS
+;:L;FUS;:L;FUS;:M;FUS;:U;FUS
+;:L;FUS;:L;FUS;:M;FUS;:U;FUS;:U;FUS
+;:L;FUS;:L;FUS;:M;FUS;:U;FUS;:U;FUS;:L(Vertex1;D1db6);FUS
+;D557
+;:L;FUS;:M;FUS;:M;FLT
+;:L;FUS;:M;FUS;:M;FLT;:U;FLT
+;:L;FUS;:M;FUS;:M;FLT;:U;FLT;:U;FLT
+;:L;FUS;:M;FUS;:U;FUS;:G;FLT
+;:L;FUS;:M;FUS;:U;FUS;:G;FLT;:U2;FLT
+;:L;FUS;:M;FUS;:U;FUS;:G;FLT;:U2;FLT;:U;FLT
+;:L;FUS;:M;FUS;:U;FUS;:G;FLT;:U;FLT
+;:L;FUS;:M;FUS;:U;FUS;:L(Face1;:M;FUS;:U;FUS|Vertex1;:M;FUS;:L(Vertex2;:M;FUS);FUS);FUS;:M;FLT
+;:M2;FUS;:M;RFI
+;:M2;FUS;:M;RFI;:U2;RFI
+;:M;FUS;:G;RFI
+;:M;FUS;:G;RFI;:U;RFI
+;:M;FUS;:G;RFI;:U;RFI;:U;RFI
+;:M;FUS;:U;FUS
+;D1528
+;:M;FUS;:L(Vertex2;:M;FUS);FUS;:M;FLT
+;D1db6
+;D1e82
+;D2343
+
+MapCount 2
+
+ElementMap 1 6 3
+
+Edge
+
+ChildCount 0
+
+NameCount 54
+0
+:3.1.22 0
+:1.3.17 0
+:2.1.20 0
+:1.3.19 0
+:1.3.14 0
+:1.1.4 0
+:1.1.d 0
+:1.3.0 0
+:1.6.0 0
+:1.9.0 0
+:1.c.0 0
+:1.f.0 0
+:1.12.0 0
+:1.15.0 0
+:1.18.0 0
+:1.1b.0 0
+:1.1e.0 0
+:1.24.0 0
+:1.27.0 0
+:1.2a.0 0
+:2.1.1e 0
+:1.1.5 0
+:1.2.12 0
+:1.4.0 0
+:1.5.0 0
+:1.7.0 0
+:1.8.0 0
+:1.a.0 0
+:1.b.0 0
+:1.d.0 0
+:1.e.0 0
+:1.10.0 0
+:1.11.0 0
+:1.13.0 0
+:1.14.0 0
+:1.16.0 0
+:1.17.0 0
+:1.19.0 0
+:1.1a.0 0
+:1.1c.0 0
+:1.1d.0 0
+:1.22.0 0
+:1.23.0 0
+:1.25.0 0
+:1.26.0 0
+:1.28.0 0
+:1.29.0 0
+:1.1.9 0
+:2.11.1c 0
+:1.1.c 0
+:1.2.f 0
+:1.1.6 0
+:1.2.11 0
+
+Face
+
+ChildCount 0
+
+NameCount 23
+0
+:1.3.1a 0
+:1.3.16 0
+:2.1.4 0
+:1.3.13 0
+:2.1.1d 0
+:2.1.21 0
+:2.2.0 0
+:2.3.0 0
+:2.4.0 0
+:2.5.0 0
+:2.6.0 0
+:2.7.0 0
+:2.8.0 0
+:2.9.0 0
+:2.a.0 0
+:2.c.0 0
+:2.d.0 0
+:2.e.0 0
+:2.11.1b 0
+:1.2.e 0
+:1.1.8 0
+:1.1.7 0
+
+Vertex
+
+ChildCount 0
+
+NameCount 36
+0
+:1.3.18 0
+:3.1.4 0
+:1.3.15 0
+:3.1.25 0
+:3.2.0 0
+:3.4.0 0
+:3.6.0 0
+:3.8.0 0
+:3.a.0 0
+:3.c.0 0
+:3.e.0 0
+:3.10.0 0
+:3.12.0 0
+:3.14.0 0
+:3.18.0 0
+:3.1a.0 0
+:3.1c.0 0
+:2.1.1f 0
+:3.1.24 0
+:3.3.0 0
+:3.5.0 0
+:3.7.0 0
+:3.9.0 0
+:3.b.0 0
+:3.d.0 0
+:3.f.0 0
+:3.11.0 0
+:3.13.0 0
+:3.17.0 0
+:3.19.0 0
+:3.1b.0 0
+:1.1.b 0
+:1.1.a 0
+:1.2.10 0
+:3.1.23 0
+
+EndMap
+
+ElementMap 2 5 3
+
+Edge
+
+ChildCount 1
+1 0 53 0 1 ;:H,E 0
+
+NameCount 0
+
+Face
+
+ChildCount 1
+1 0 22 0 1 ;:H,F 0
+
+NameCount 0
+
+Vertex
+
+ChildCount 1
+1 0 35 0 1 ;:H,V 0
+
+NameCount 0
+
+EndMap
