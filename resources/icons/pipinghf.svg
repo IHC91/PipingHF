@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="8" fill="#1565C0"/>
+  <ellipse cx="22" cy="50" rx="14" ry="5" fill="#BBDEFB"/>
+  <rect x="8" y="18" width="28" height="32" fill="#90CAF9"/>
+  <ellipse cx="22" cy="18" rx="14" ry="5" fill="#42A5F5"/>
+  <path d="M36 20 Q52 20 52 36" stroke="#1565C0" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="52" cy="36" r="3" fill="#1565C0"/>
+  <text x="32" y="62" font-size="6" fill="white" font-family="sans-serif" text-anchor="middle" font-weight="bold">PipingHF</text>
+</svg>

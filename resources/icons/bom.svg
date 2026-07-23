@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="4" fill="#FFFDE7"/>
+  <rect x="8" y="8" width="48" height="36" rx="2" fill="white" stroke="#F57F17" stroke-width="1"/>
+  <line x1="12" y1="16" x2="52" y2="16" stroke="#F57F17" stroke-width="1"/>
+  <text x="14" y="14" font-size="5" fill="#F57F17" font-family="sans-serif" font-weight="bold">BOM</text>
+  <line x1="12" y1="22" x2="40" y2="22" stroke="#F57F17" stroke-width="0.5"/>
+  <line x1="12" y1="28" x2="35" y2="28" stroke="#F57F17" stroke-width="0.5"/>
+  <line x1="12" y1="34" x2="45" y2="34" stroke="#F57F17" stroke-width="0.5"/>
+  <line x1="12" y1="40" x2="30" y2="40" stroke="#F57F17" stroke-width="0.5"/>
+  <text x="32" y="58" font-size="7" fill="#F57F17" font-family="sans-serif" text-anchor="middle">BOM</text>
+</svg>

@@ -9,7 +9,7 @@ import FreeCADGui
 __version__ = "0.1.0"
 
 _dir = os.path.dirname(__file__)
-ICONPATH = os.path.join(_dir, "iconz")
+ICONPATH = os.path.join(_dir, "resources", "icons")
 TRANSLATIONSPATH = os.path.join(_dir, "translationz")
 UIPATH = os.path.join(_dir, "dialogz")
 

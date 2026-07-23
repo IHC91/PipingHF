@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="4" fill="#F3E5F5"/>
+  <line x1="12" y1="52" x2="52" y2="12" stroke="#7B1FA2" stroke-width="2" stroke-dasharray="4,2"/>
+  <line x1="12" y1="12" x2="52" y2="52" stroke="#7B1FA2" stroke-width="2"/>
+  <line x1="12" y1="32" x2="52" y2="32" stroke="#7B1FA2" stroke-width="1" stroke-dasharray="3,3"/>
+  <text x="10" y="12" font-size="6" fill="#7B1FA2" font-family="sans-serif">Vista</text>
+  <text x="10" y="20" font-size="6" fill="#7B1FA2" font-family="sans-serif">ISO</text>
+  <text x="32" y="58" font-size="7" fill="#7B1FA2" font-family="sans-serif" text-anchor="middle">Isométrico</text>
+</svg>
